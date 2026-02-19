@@ -107,10 +107,13 @@ export default function LoginPage() {
             {/* Header Section */}
             <div className="space-y-2">
               <div className="flex items-center gap-2 mb-6">
-                {/* Logo Placeholder */}
-                <div className="w-8 h-8 bg-gradient-to-tr from-blue-600 to-blue-400 rounded-lg flex items-center justify-center shadow-lg shadow-blue-500/30">
-                  <span className="text-white font-bold text-xs">F</span>
-                </div>
+                <Image
+                  src="/logo.jpeg"
+                  alt="FinRobot Logo"
+                  width={32}
+                  height={32}
+                  className="rounded-lg object-cover shadow-lg shadow-blue-500/20"
+                />
                 <span className="text-xl font-semibold text-white tracking-tight">FinRobot <span className="text-blue-400 font-normal">Beta</span></span>
                 <span className="ml-auto px-2 py-0.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-[10px] font-medium text-blue-400 uppercase tracking-wider">
                   Invite Only
